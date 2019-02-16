@@ -1,0 +1,30 @@
+{
+  "name": "citys",
+  "version": "1.0.0",
+  "description": "中国行政区划nodejs实现的mysql简单版本",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "fetch": "node ./lib/fetch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrunlee/citys.git"
+  },
+  "keywords": [
+    "行政区划",
+    "mysql"
+  ],
+  "author": "chrunlee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrunlee/citys/issues"
+  },
+  "homepage": "https://github.com/chrunlee/citys#readme",
+  "dependencies": {
+    "bufferhelper": "^0.2.1",
+    "iconv-lite": "^0.4.24",
+    "sqlquery-tool": "^1.0.4"
+  }
+}
